@@ -1,0 +1,16 @@
+python train_baseline_transformers.py \
+    --model_name=statement_baseline_codebert.bin \
+    --output_dir=./saved_models \
+    --do_train \
+    --do_test \
+    --train_data_file=../../data/svp/processed_train.csv \
+    --eval_data_file=../../data/svp/processed_val.csv \
+    --test_data_file=../../data/svp/processed_test.csv \
+    --epochs 20 \
+    --encoder_block_size 512 \
+    --train_batch_size 64 \
+    --eval_batch_size 64 \
+    --learning_rate 2e-5 \
+    --max_grad_norm 1.0 \
+    --evaluate_during_training \
+    --seed 123456  2>&1 | tee train_baseline_codebert.log
