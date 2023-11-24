@@ -1,18 +1,11 @@
 <div align="center">
   
-# ChatGPT for Vulnerability Dectection, Classification, and Repair:<br>How Far Are We?
-  
-</div>
+## ChatGPT for Vulnerability Dectection, Classification, and Repair:<br>How Far Are We?
 
 ![ChatGPT](img/overview.png)
+ 
+</div>
 
-<p align="center">
-  </a>
-  <p align="center">
-    ChatGPT for Vulnerability Dectection, Classification, and Repair:<br>How Far Are We?
-  </p>
-</p>
-     
 ## Table of contents
 
 <!-- Table of contents -->
